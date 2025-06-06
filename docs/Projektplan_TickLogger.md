@@ -8,13 +8,13 @@ Robustes, effizientes Logging aller Tickdaten aus dem MetaTrader, als Grundlage 
 - [x] Logge für jeden Tick:
     - Zeitstempel (lokal, mit Sekundenauflösung)
     - Symbol
-    - Bid-Preis
-    - Ask-Preis
+    - Bid-Preis (mit 5 Nachkommastellen)
+    - Ask-Preis (mit 5 Nachkommastellen)
     - Spread (im EA berechnet, 5 Nachkommastellen)
 - [x] Schreibe bei jeder neuen Datei eine Header-Zeile.
-- [x] Logrotation: Jede Minute neue Datei.
+- [x] Logrotation: Jede Minute neue Datei (Standard, via Parameter anpassbar).
 - [x] Dateinamen enthalten Infos zu Broker/Instanz/Konto/Asset/Typ/Zeit.
-- [x] Werte werden roh geloggt, keine Filterung im EA (außer Formatierung/Rundung).
+- [x] Werte werden roh und formatiert geloggt, keine Filterung im EA (nur Formatierung/Rundung).
 - [ ] EA weiter optimieren, falls weitere Felder gebraucht werden (z.B. Magic, Flags etc.).
 
 ## 3. Schnittstellen/Abhängigkeiten
@@ -25,9 +25,10 @@ Robustes, effizientes Logging aller Tickdaten aus dem MetaTrader, als Grundlage 
 
 ## 4. Nächste Schritte
 
-- [ ] Finalen EA-Code bereitstellen und produktiv einsetzen.
-- [ ] Feedback und ggf. weitere Anpassungen.
+- [x] Finalen EA-Code (V1.20) bereitstellen und produktiv einsetzen (läuft ab 17:24).
+- [ ] Feedback nach Livebetrieb und ggf. weitere Anpassungen (z.B. zusätzliche Felder, spezielle Filter).
 
 ---
 
-**Letztes Update:** 2025-06-06
+**Letztes Update:** 2025-06-06, 15:28  
+**Status:** V1.20 produktiv ab 17:24 Uhr
