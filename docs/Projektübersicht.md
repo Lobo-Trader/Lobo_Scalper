@@ -3,12 +3,13 @@
 ## Inhaltsverzeichnis
 
 1. [MetaTrader Instanzen](Projektplan_MetaTrader.md)
+    - [Handelssystem: Lobo.Scalper_SpeedOpt](Projektplan_Handelssystem.md)
     - [EA TickLogger](Projektplan_TickLogger.md)
     - [EA OrderLogger](Projektplan_OrderLogger.md)
     - [EA Fehler-Handling](Projektplan_Fehlerhandling.md)
-2. [Python Kopf](Projektplan_Python.md)
-3. [Systemüberwachung & Logging](Projektplan_Monitoring.md)
-4. [Deployment & Automatisierung](Projektplan_Deployment.md)
+3. [Python Kopf](Projektplan_Python.md)
+4. [Systemüberwachung & Logging](Projektplan_Monitoring.md)
+5. [Deployment & Automatisierung](Projektplan_Deployment.md)
 
 ---
 
