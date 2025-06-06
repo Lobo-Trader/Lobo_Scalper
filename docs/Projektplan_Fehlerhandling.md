@@ -1,14 +1,13 @@
-# Projektplan: EA OrderLogger
+# Projektplan: EA Fehler-Handling
 
 ## Ziel
-Lückenlose Erfassung aller Order- und Trade-Events aus MetaTrader.
+Früherkennung und Protokollierung aller Fehlerfälle in EAs und Instanzen.
 
 ## Aufgaben
 
-- [x] Logge alle Order-Events (öffnen, schließen, ändern).
-- [x] Erfassung mit Zeitstempel, Symbol, Ordertyp, Volumen, Preis, Magic, etc.
-- [ ] Erweiterung um spezielle Event-Typen und Fehlerfälle.
-- [ ] Synchronisation mit TickLogger.
+- [ ] Abfangen und Loggen typischer Fehlerquellen (Verbindungsabbrüche, Datenlücken, EA-Abstürze).
+- [ ] Alarmierung (z.B. per E-Mail/Telegram).
+- [ ] Dokumentation von Fehlercodes und Lösungsansätzen.
 
 ---
 
