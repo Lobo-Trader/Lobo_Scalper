@@ -5,7 +5,7 @@ Verarbeitung, Analyse und Visualisierung der Daten aus den MetaTrader-Logs.
 
 ## Aufgaben
 
-- [ ] Einlesen und Validieren der Tick- und Orderdaten (pandas, numpy).
+- [ ] # Projektplan: MetaTrader Tickdaten-Importmodul , Einlesen und Validieren der Tick- und Orderdaten (pandas, numpy).
 - [ ] Zeitreihenanalyse, Feature Engineering.
 - [ ] Modellierung, Backtesting, Visualisierung.
 - [ ] Automatisierung und Reporting.
