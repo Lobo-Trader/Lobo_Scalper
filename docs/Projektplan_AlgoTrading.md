@@ -10,7 +10,7 @@
 
 ## 2. Grundaufbau und Philosophie
 
-- **MT4/MT5 auf Cloud-Server:** Jeder Broker ein eigenes Terminal, jeweils Demo oder Cash
+- **MT5 auf Cloud-Server:** Jeder Broker ein eigenes Terminal, jeweils Demo oder Cash
 - **EA speichert nur Rohdaten (Trades, Ticks, Flags) lokal ab**
 - **Analyse & Auswertung** erfolgt unabhängig (z.B. per Python), um MT-Performance nicht zu beeinflussen
 - **Regelmäßige Datensynchronisation und Projektdokumentation**
